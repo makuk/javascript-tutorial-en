@@ -6,16 +6,16 @@ Let's see what's so special about JavaScript, what we can achieve with it and wh
 
 *자바스크립트* 는 *"웹페이지를 살아있게 하기 위해"* 만들어졌습니다.
 
-The programs in this language are called *scripts*. They can be written right in the HTML and execute automatically as the page loads.
+이 언어 내에서 프로그램들은 *스크립트*라 불립니다. HTML에 바로 적어서 페이지를 로드할 때 자동적으로 실행되게 할 수 있습니다.
 
-Scripts are provided and executed as a plain text. They don't need a special preparation or a compilation to run.
+스크립트는 평범한 텍스트로 쓰여져서 실행됩니다. 실행에는 특별한 준비나 컴파일 작업이 필요 없습니다.
 
-In this aspect, JavaScript is very different from another language called [Java](http://en.wikipedia.org/wiki/Java).
+이 관점에서 보면, 자바스크립트는 [자바](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))라는 언어와는 많이 다릅니다.
 
-```smart header="Why <u>Java</u>Script?"
-When JavaScript was created, it initially had another name: "LiveScript". But Java language was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
+```smart header="그럼 왜 <u>자바</u>스크립트죠?"
+자바스크립트가 처음 만들어 졌을 땐 이름이 달랐습니다. "LiveScript"였죠. 하지만 그 당시 자바는 매우 유명한 언어였고, 자바와 관련 있는 언어라는 느낌이 드는 것이 유명해지는 데 도움이 될 것 같았기에 자바라는 말을 넣기로 결정되었습니다.
 
-But as it evolved, JavaScript became a fully independent language, with its own specification called [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), and now it has no relation to Java at all.
+하지만 시간이 지날수록, 자바스크립트는 점점 발전해 완전히 독립된 언어가 되었고, 이제는 [ECMAScript](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)라는 말로도 불리고 있습니다. 그리고 자바와는 아무런 관계가 아니죠.
 ```
 
 At present, JavaScript can execute not only in the browser, but also on the server, or actually on any device where there exists a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
@@ -114,8 +114,7 @@ Examples of such languages:
 
 There are more. Of course even if we use one of those languages, we should also know JavaScript, to really understand what we're doing.
 
-## 
-
-- JavaScript was initially created as a browser-only language, but now it is used in many other environments as well.
-- At this moment, JavaScript has a unique position as the most widely-adopted browser language with full integration with HTML/CSS.
-- There are many languages that get "transpiled" to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
+## 요약
+- 자바스크립트는 브라우저 전용 언어로 만들어졌으나, 이제는 다른 곳에서도 많이 쓰이고 있습니다.
+- 현재, 자바스크립트는 매우 독특한 위치에 있으며 HTML/CSS와의 완전한 연동을 통해 여러 브라우저에서 다방면으로 쓰이고 있습니다.
+- 자바스크립트에서 "유래한" 다른 언어들이 많이 있으며 특정한 기능을 위해 만들어졌습니다. 자바스크립트를 마스터하기 전에 한번쯤은 살펴보는 것을 권장하는 바입니다.
