@@ -1,10 +1,10 @@
-# An Introduction to JavaScript
+# 자바스크립트 소개
 
 Let's see what's so special about JavaScript, what we can achieve with it and which other technologies play well with it.
 
-## What is JavaScript?
+## 자바스크립트가 뭐지?
 
-*JavaScript* was initially created to *"make webpages alive"*.
+*자바스크립트* 는 *"웹페이지를 살아있게 하기 위해"* 만들어졌습니다.
 
 The programs in this language are called *scripts*. They can be written right in the HTML and execute automatically as the page loads.
 
@@ -41,7 +41,7 @@ Engines are complicated. But the basics are easy.
 The engine applies optimizations on every stage of the process. It even watches the compiled script as it runs, analyzes the data that flows through it and applies optimizations to the machine code based on that knowledge. At the end, scripts are quite fast.
 ```
 
-## What can in-browser JavaScript do?
+## 브라우저 내에서 자바스크립트가 하는 일이 뭐죠?
 
 The modern JavaScript is a "safe" programming language. It does not provide low-level access to memory or CPU, because it was initially created for browsers which do not require it.
 
@@ -57,7 +57,7 @@ For instance, in-browser JavaScript is able to:
 - Get and set cookies, ask questions to the visitor, show messages.
 - Remember the data on the client-side ("local storage").
 
-## What CAN'T in-browser JavaScript do?
+## 브라우저 내의 자바스크립트가 할 수 없는 일은 뭐죠?
 
 JavaScript's abilities in the browser are limited for the sake of the user's safety. The aim is to prevent an evil webpage from accessing private information or harming the user's data.
 
@@ -79,7 +79,7 @@ The examples of such restrictions are:
 
 Such limits do not exist if JavaScript is used outside of the browser, for example on a server. Modern browsers also allow installing plugin/extensions which may get extended permissions.
 
-## What makes JavaScript unique?
+## 뭐 때문에 자바 스크립트가 그렇게 특별한 건가요?
 
 There are at least *three* great things about JavaScript:
 
@@ -96,7 +96,7 @@ That's what makes JavaScript unique. That's why it's the most widespread tool to
 While planning to learn a new technology, it's beneficial to check its perspectives. So let's move on to the modern trends that include new languages and browser abilities.
 
 
-## Languages "over" JavaScript
+## 자바스크립트 "그 이상"의 언어
 
 The syntax of JavaScript does not suit everyone's needs. Different people want different features.
 
@@ -114,7 +114,7 @@ Examples of such languages:
 
 There are more. Of course even if we use one of those languages, we should also know JavaScript, to really understand what we're doing.
 
-## Summary
+## 
 
 - JavaScript was initially created as a browser-only language, but now it is used in many other environments as well.
 - At this moment, JavaScript has a unique position as the most widely-adopted browser language with full integration with HTML/CSS.
