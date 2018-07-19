@@ -43,19 +43,19 @@ Let's see what's so special about JavaScript, what we can achieve with it and wh
 
 ## 브라우저 내에서 자바스크립트가 하는 일이 뭐죠?
 
-The modern JavaScript is a "safe" programming language. It does not provide low-level access to memory or CPU, because it was initially created for browsers which do not require it.
+모던 자바스크립트는 "안전한" 프로그래밍 언어입니다. 메모리나 CPU에 저레벨로 접근하지 않습니다. 그런 걸 필요로 하지 않는 브라우저용으로 만들어졌기 때문이죠.
 
-The capabilities greatly depend on the environment that runs JavaScript. For instance, [Node.JS](https://wikipedia.org/wiki/Node.js) supports functions that allow JavaScript to read/write arbitrary files, perform network requests etc.
+자바스크립트는 실행하는 환경에 따라 할 수 있는 일들이 달라집니다. 예를 들어 [Node.JS](https://ko.wikipedia.org/wiki/Node.js)에서는 자바스크립트가 임의의 파일을 읽고 쓸 수 있게 하거나 네트워크 요청을 할 수 있게 해주는 함수를 제공합니다.
 
-In-browser JavaScript can do everything related to webpage manipulation, interaction with the user and the webserver.
+브라우저 내의 자바스크립트는 사용자와 웹서버 간의 상호작용, 웹페이지 처리에 관한 모든 일을 할 수 있습니다.
 
-For instance, in-browser JavaScript is able to:
+예로, 브라우저 내의 자바스크립트가 할 수 있는 일은:
 
-- Add new HTML to the page, change the existing content, modify styles.
-- React to user actions, run on mouse clicks, pointer movements, key presses.
-- Send requests over the network to remote servers, download and upload files (so-called [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) and [COMET](https://en.wikipedia.org/wiki/Comet_(programming)) technologies).
-- Get and set cookies, ask questions to the visitor, show messages.
-- Remember the data on the client-side ("local storage").
+- 새로운 HTML을 페이지에 추가하거나, 이미 존재하는 내용을 바꾸거나, 스타일을 바꿀 수 있습니다.
+- 사용자의 행동에 반응합니다. 마우스 클릭, 포인터 이동, 키를 누르는 것 등에 따라 실행됩니다.
+- 원격 서버로 네트워크를 통해 요청을 보내거나, 파일을 다운로드/업로드 할 수 있습니다([AJAX](https://ko.wikipedia.org/wiki/Ajax) 그리고 [COMET](https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A9%A7_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)) 기술을 사용함).
+- 쿠키를 읽거나 만들 수 있습니다. 방문자에게 질문하거나, 메시지를 보낼 수 있습니다.
+- 클라이언트 사이드("로컬 저장소")의 데이터를 기억합니다.
 
 ## 브라우저 내의 자바스크립트가 할 수 없는 일은 뭐죠?
 
