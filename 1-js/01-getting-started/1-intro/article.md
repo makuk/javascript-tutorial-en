@@ -15,30 +15,30 @@ Let's see what's so special about JavaScript, what we can achieve with it and wh
 ```smart header="그럼 왜 <u>자바</u>스크립트죠?"
 자바스크립트가 처음 만들어 졌을 땐 이름이 달랐습니다. "LiveScript"였죠. 하지만 그 당시 자바는 매우 유명한 언어였고, 자바와 관련 있는 언어라는 느낌이 드는 것이 유명해지는 데 도움이 될 것 같았기에 자바라는 말을 넣기로 결정되었습니다.
 
-하지만 시간이 지날수록, 자바스크립트는 점점 발전해 완전히 독립된 언어가 되었고, 이제는 [ECMAScript](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)라는 말로도 불리고 있습니다. 그리고 자바와는 아무런 관계가 아니죠.
+하지만 시간이 지날수록, 자바스크립트는 점점 발전해 완전히 독립된 언어가 되었고, 이제는 .[ECMAScript].(https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)라는 말로도 불리고 있습니다. 그리고 자바와는 아무런 관계가 아니죠.
 ```
 
-At present, JavaScript can execute not only in the browser, but also on the server, or actually on any device where there exists a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
+현재 자바스크립트는 브라우저 내에서만이 아니라 서버에서도, 어떠한 디바이스에서도 [자바스크립트 엔진](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%97%94%EC%A7%84)만 있으면 실행이 가능합니다.
 
-The browser has an embedded engine, sometimes it's also called a "JavaScript virtual machine".
+브라우저에는 "자바스크립트 가상머신"이라고 불리는 내부 엔진이 있습니다.
 
-Different engines have different "codenames", for example:
+엔진이 다르면 그 코드네임도 다릅니다. 예를 들어 보면,
 
-- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome and Opera.
-- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
-- ...There are other codenames like "Trident", "Chakra" for different versions of IE, "ChakraCore" for Microsoft Edge, "Nitro" and "SquirrelFish" for Safari etc.
+- [V8](https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A1%AC_V8) -- 크롬과 오페라에서 사용됩니다.
+- [SpiderMonkey](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%8C%EC%9D%B4%EB%8D%94%EB%AA%BD%ED%82%A4) -- 파이어폭스에서 사용됩니다.
+- ...그 밖에도 IE에서 사용되는 "Trident", "Chakra"나 엣지에서 사용되는 "ChakraCore", 사파리에서 사용되는 "Nitro", "SquirrelFish"가 있습니다.
 
-The terms above are good to remember, because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome and Opera.
+위에 나온 것들은 기억해 두면 좋은데, 인터넷에서 개발자들의 게시글에서 많이 보이기 때문입니다. 저희도 사용할 거고요. 예를 들어, "X라는 기능이 V8에서 지원됩니다" 라는 것은 크롬과 오페라에서 작동될 것이란 뜻입니다.
 
-```smart header="How engines work?"
+```smart header="엔진은 어떻게 작동하나요?"
 
-Engines are complicated. But the basics are easy.
+엔진은 복잡하지만 그 기초는 매우 간단합니다.
 
-1. The engine (embedded if it's a browser) reads ("parses") the script.
-2. Then it converts ("compiles") the script to the machine language.
-3. And then the machine code runs, pretty fast.
+1. 엔진 (브라우저라면 그 내부에서) 스크립트를 읽어들입니다(파싱).
+2. 그리고 기계어로 스크립트를 번역합니다(컴파일).
+3. 그러면 코드가 실행됩니다. 매우 빠르죠.
 
-The engine applies optimizations on every stage of the process. It even watches the compiled script as it runs, analyzes the data that flows through it and applies optimizations to the machine code based on that knowledge. At the end, scripts are quite fast.
+엔진은 각 단계마다 최적화를 해 줍니다. 게다가 컴파일된 스크립트가 작동될 때도 데이터를 분석하고 기계어 코드에도 최적화를 합니다. 결과적으로 스크립트는 꽤 빨라집니다.
 ```
 
 ## 브라우저 내에서 자바스크립트가 하는 일이 뭐죠?
